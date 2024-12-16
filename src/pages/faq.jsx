@@ -39,6 +39,12 @@ const Faq = () => {
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi doloribus saepe quaerat ipsam, tempore labore, voluptate quos iure tenetur, excepturi ducimus sint? Impedit dignissimos dolore culpa rerum veniam ullam excepturi."
         }
       />
+      <QuestionBlock
+        question={"What payments we accept?"}
+        answer={
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi doloribus saepe quaerat ipsam, tempore labore, voluptate quos iure tenetur, excepturi ducimus sint? Impedit dignissimos dolore culpa rerum veniam ullam excepturi."
+        }
+      />
     </section>
   );
 };

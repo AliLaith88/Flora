@@ -6,7 +6,7 @@ export default function About() {
     <section>
       <PageTitle imageUrl={bgImage} headerText={"About Us"} />
       <div className="container bg-myWhite p-8 mx-auto">
-        <p className="text-sm md:w-3/4 md:mx-auto">
+        <p className="text-sm md:w-3/4 md:mx-auto text-gray-800">
           At our travel agency, we pride ourselves on a personalized approach to
           planning unforgettable journeys. We go beyond standard packages,
           tailoring itineraries to your preferences, interests, and budget.
@@ -27,14 +27,14 @@ export default function About() {
               <div className="flex justify-center items-center object-cover w-48">
                 <img src={placeHolderImage} alt="" />
               </div>
-              <h3 className="mt-4">Ali Jamal</h3>
+              <h3 className="mt-4 text-gray-800">Ali Jamal</h3>
             </div>
             {/* person2 */}
             <div className="flex flex-col items-center ">
               <div className="flex justify-center items-center object-cover w-48">
                 <img src={placeHolderImage} alt="" />
               </div>
-              <h3 className="mt-4">Karim Salman</h3>
+              <h3 className="mt-4 text-gray-800">Karim Salman</h3>
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section>
       <PageTitle imageUrl={BgImage} headerText={"Contact Us"} />
-      <div className="md:flex-row bg-myWhite flex flex-col-reverse items-center">
+      <div className="md:flex-row bg-myWhite flex flex-col-reverse items-center text-gray-800">
         <div className="w-full flex flex-col items-center md:w-1/2">
           <div className="w-10/12 py-4 flex flex-col gap-4">
             {/* email field */}
@@ -26,7 +26,7 @@ export default function Contact() {
                 className="w-full rounded-lg p-2 bg-slate-200 resize-none min-h-80 shadow-lg"
               ></textarea>
             </div>
-            <button className="bg-myGreen text-black p-2 px-4 rounded-lg w-fit shadow-lg">
+            <button className="bg-myGreen text-gray-800 p-2 px-4 rounded-lg w-fit shadow-lg">
               Send Us Message
             </button>
           </div>

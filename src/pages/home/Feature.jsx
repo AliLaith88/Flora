@@ -31,7 +31,7 @@ export default function Feature({
           <img
             src={url}
             alt="Feature Illustration"
-            className="w-3/4 rounded-lg shadow-lg"
+            className="w-3/4 rounded-lg"
           />
         </div>
       </div>

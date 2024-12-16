@@ -25,7 +25,7 @@ const QuestionBlock = ({ question, answer }) => {
 };
 const Faq = () => {
   return (
-    <section className="font-roboto">
+    <section className="font-roboto min-h-screen">
       <PageTitle imageUrl={headerImg} headerText={"FAQ"} />
       <QuestionBlock
         question={"Can I book a trip for a group?"}

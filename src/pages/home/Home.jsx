@@ -13,6 +13,7 @@ export default function Home() {
     <div className="font-roboto">
       <Hero />
       <About />
+      <hr className="mt-10" />
       <Feature
         title="CUSTOM VACATION"
         paragrah="Travel is personal, and our custom vacation packages are designed to reflect that. Whether you dream of vibrant cities, serene beaches, or thrilling adventures, we craft trips tailored to your preferences, pace, and budget.
@@ -36,9 +37,11 @@ Enjoy unique itineraries, authentic experiences, and the flexibility to explore 
         url={img3}
         redirectTo="/destinations"
       />
+      <hr className="mt-10" />
       <Benefits />
       <Cta />
       <Parteners />
+      <hr className="mt-10" />
       <Gallery />
     </div>
   );

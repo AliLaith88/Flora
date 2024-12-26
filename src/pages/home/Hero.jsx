@@ -1,4 +1,4 @@
-import image from "../../assets/imageHero.png";
+import image from "../../assets/seashore-during-golden-hour.jpg";
 import CTAbtn from "../../CTAbtn";
 export default function Hero() {
   return (
@@ -7,7 +7,7 @@ export default function Hero() {
       style={{ backgroundImage: `url(${image})` }}
     >
       {/* dark overlay */}
-      {/* <div className="absolute inset-0 bg-black bg-opacity-50"></div> */}
+      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">

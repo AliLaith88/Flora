@@ -1,5 +1,5 @@
 import PageTitle from "../PageTitle";
-import bgImage from "../assets/headerBG.png";
+import bgImage from "../assets/headerBG.jpg";
 import placeHolderImage from "../assets/personPlaceHolder.png";
 export default function About() {
   return (

@@ -1,7 +1,6 @@
 import PageTitle from "../PageTitle";
-import BgImage from "../assets/headerBG.png";
-import { FaHandPointRight } from "react-icons/fa";
-
+import BgImage from "../assets/headerBG.jpg";
+import { FaHandPointRight } from "react-icons/fa6";
 export default function Contact() {
   return (
     <section>

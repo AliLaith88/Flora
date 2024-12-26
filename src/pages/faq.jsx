@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PageTitle from "../PageTitle";
-import headerImg from "../assets/headerBG.png";
+import headerImg from "../assets/headerBG.jpg";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 const QuestionBlock = ({ question, answer }) => {

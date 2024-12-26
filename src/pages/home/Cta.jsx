@@ -1,5 +1,5 @@
 import CTAbtn from "../../CTAbtn";
-import seaImage from "../../assets/seaImage.png";
+import seaImage from "../../assets/seaImage.jpg";
 export default function Cta() {
   return (
     <section

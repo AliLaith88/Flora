@@ -14,7 +14,7 @@ import NY from "../../assets/NY-min.jpg";
 
 import TravelCard from "./TravelCard.jsx";
 import PageTitle from "../../PageTitle.jsx";
-import headerBG from "../../assets/headerBG.png";
+import headerBG from "../../assets/headerBG.jpg";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdArrowDropdown } from "react-icons/io";
 import Checklist from "./CheckList.jsx";
@@ -24,8 +24,8 @@ const travelData = [
     imageUrl: image1,
     country: "Turkey",
     city: "Istanbul",
-    days: 12,
-    price: 420,
+    days: 10,
+    price: 800,
     deal: "",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Hic facilis beatae deserunt porro nemo, numquam nesciunt cumque vero sequi nam rerum. Laudantium ipsum sed explicabo illo. Dolorem officiis quibusdam earum.",
@@ -34,8 +34,8 @@ const travelData = [
     imageUrl: Banff,
     country: "Canada",
     city: "Banff National Park",
-    days: 12,
-    price: 420,
+    days: 8,
+    price: 340,
     deal: "",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Hic facilis beatae deserunt porro nemo, numquam nesciunt cumque vero sequi nam rerum. Laudantium ipsum sed explicabo illo. Dolorem officiis quibusdam earum.",
@@ -44,8 +44,8 @@ const travelData = [
     imageUrl: Great_Barrier_Reef,
     country: "Australia",
     city: "Great Barrier Reef",
-    days: 12,
-    price: 420,
+    days: 6,
+    price: 500,
     deal: "",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Hic facilis beatae deserunt porro nemo, numquam nesciunt cumque vero sequi nam rerum. Laudantium ipsum sed explicabo illo. Dolorem officiis quibusdam earum.",
@@ -54,8 +54,8 @@ const travelData = [
     imageUrl: Mount_Everest_BaseCamp,
     country: "Nepal",
     city: "Mount Everest Base Camp",
-    days: 12,
-    price: 420,
+    days: 8,
+    price: 800,
     deal: "",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Hic facilis beatae deserunt porro nemo, numquam nesciunt cumque vero sequi nam rerum. Laudantium ipsum sed explicabo illo. Dolorem officiis quibusdam earum.",
@@ -64,8 +64,8 @@ const travelData = [
     imageUrl: Northern_Lights,
     country: "Norway",
     city: "Northern Lights",
-    days: 12,
-    price: 420,
+    days: 8,
+    price: 600,
     deal: "",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Hic facilis beatae deserunt porro nemo, numquam nesciunt cumque vero sequi nam rerum. Laudantium ipsum sed explicabo illo. Dolorem officiis quibusdam earum.",
@@ -75,7 +75,7 @@ const travelData = [
     country: "USA",
     city: "NY",
     days: 12,
-    price: 420,
+    price: 920,
     deal: "",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Hic facilis beatae deserunt porro nemo, numquam nesciunt cumque vero sequi nam rerum. Laudantium ipsum sed explicabo illo. Dolorem officiis quibusdam earum.",
@@ -85,7 +85,7 @@ const travelData = [
     country: "Italy",
     city: "rome",
     days: 12,
-    price: 420,
+    price: 432,
     deal: "",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Hic facilis beatae deserunt porro nemo, numquam nesciunt cumque vero sequi nam rerum. Laudantium ipsum sed explicabo illo. Dolorem officiis quibusdam earum.",
@@ -94,8 +94,8 @@ const travelData = [
     imageUrl: Salar_de_Uyuni,
     country: "Bolivia",
     city: "Salar de Uyuni",
-    days: 12,
-    price: 420,
+    days: 30,
+    price: 1000,
     deal: "",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Hic facilis beatae deserunt porro nemo, numquam nesciunt cumque vero sequi nam rerum. Laudantium ipsum sed explicabo illo. Dolorem officiis quibusdam earum.",
@@ -104,8 +104,8 @@ const travelData = [
     imageUrl: shanghai,
     country: "China",
     city: "shanghai",
-    days: 12,
-    price: 420,
+    days: 22,
+    price: 600,
     deal: "",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Hic facilis beatae deserunt porro nemo, numquam nesciunt cumque vero sequi nam rerum. Laudantium ipsum sed explicabo illo. Dolorem officiis quibusdam earum.",
@@ -114,8 +114,8 @@ const travelData = [
     imageUrl: Swiss_Alps,
     country: "Switzerland",
     city: "Swiss Alps",
-    days: 12,
-    price: 420,
+    days: 10,
+    price: 700,
     deal: "",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Hic facilis beatae deserunt porro nemo, numquam nesciunt cumque vero sequi nam rerum. Laudantium ipsum sed explicabo illo. Dolorem officiis quibusdam earum.",
